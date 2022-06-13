@@ -2,6 +2,9 @@
 
 Markdown is a lightweight markup language, mostly used for writing readmes. Each platform supporting Markdown usually adds its own flavors to it. GitHub is no exception, just recently adding support for writing mathematical formulae.
 
+## TL;DR
+**Thi**s **i**s a **GitH**ub-**flavor**ed **Markdo**wn **cheatshe**et **focusi**ng **o**n **les**s-**kno**wn **featur**es.[^1]
+
 ## Headings
 Similar to HTML, there are 6 headings in Markdown:
 
@@ -46,3 +49,6 @@ This is line 2.
 ```
 
 It's less known, because it's invisible. But, try it out.
+
+
+[^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
