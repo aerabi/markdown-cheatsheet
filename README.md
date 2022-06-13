@@ -150,4 +150,66 @@ for i in range(10):
 
 As of now, some 583 languages are being supported for syntax highlighting. You can access the full list [here](https://github.com/github/linguist/blob/master/vendor/README.md).
 
+## Blockquotes
+
+Blockquotes are designated by a `>` in front of them:
+
+```markdown
+> Veniet tempus quo ista quae nunc latent in lucem dies extrahat et longioris aevi diligentia.
+```
+
+Use double `>` to create nested blockquotes.
+
+## Ordered Lists
+
+To create an ordered list:
+
+```markdown
+1. First item
+2. Second item
+3. Third item
+```
+
+The number can be out of order:
+```markdown
+1. First item (indexed 1)
+1. Second item (indexed 1)
+5. Third item (indexed 5)
+```
+
+Markdown still fixes the counters and outputs the correct numbers:
+
+1. First item (indexed 1)
+1. Second item (indexed 1)
+5. Third item (indexed 5)
+
+## Unordered Lists
+
+To create unordered lists, use any of the following "bullet characters": hyphen `-`, asterisk `*`, or plus sign `+`:
+
+```markdown
+- Item
+- Another item
+- Yet another item
+```
+
+One can mix the bullet characters in one list, but it's a bad practice.
+
+## Task Lists
+
+A task list (aka _checklist_ or _todo list_) is an unordered list with each item having a checkbox in front, either checked or unchecked. Tasks lists are very useful when writing issues on GitHub, as one can then check or uncheck them without manually editing the Markdown source of the comment or description.
+
+```markdown
+- [x] Write the tests
+- [ ] Implement the functions
+- [ ] Fix the code formatting
+```
+
+Output:
+
+- [x] Write the tests
+- [ ] Implement the functions
+- [ ] Fix the code formatting
+
+
 [^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
