@@ -82,4 +82,72 @@ All of these are: ***bandi***, _**bandi**_, **_bandi_**, __*bandi*__, *__bandi__
 And inside the word: b***and***i which means bold***and***italic.
 ```
 
+## Inline Code
+
+To write code in monospace font inside a regular text, enclose it in backticks:
+
+```markdown
+This is `code` inside text.
+```
+
+If you want to write a code that has backticks in it, you can use double-backticks:
+
+```markdown
+This is the syntax: ``This is `code` inside a text.``
+```
+
+## Code Block
+
+To create a code block, put four lines or a tab before it:
+
+```markdown
+This is the code:
+
+    for i in range(10):
+        pass
+```
+
+The alternative syntax is wrapping the code in three backticks.
+
+````markdown
+This is the code:
+
+```
+for i in range(10):
+    pass
+```
+````
+
+To display triple backticks in a code block, wrap them inside quadruple backticks.
+
+````markdown
+The alternative syntax is wrapping the code in three backticks.
+
+``‌``
+This is the code:
+
+```
+for i in range(10):
+    pass
+```
+``‌``
+````
+
+To display triple and quadruple backticks inside a code block, wrap them inside quadruple backticks and put a [zero-width non-joiner](https://unicode-explorer.com/c/200C) inside the quadruple backticks you want to display.
+
+## Code Block with Syntax Highlighting
+
+To create a code block with syntax highlighting, you can use the three backtick syntax and write the language name in front of it:
+
+```markdown
+This is the code:
+
+`‌`‌`python
+for i in range(10):
+    pass
+`‌`‌`
+```
+
+As of now, some 583 languages are being supported for syntax highlighting. You can access the full list [here](https://github.com/github/linguist/blob/master/vendor/README.md).
+
 [^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
