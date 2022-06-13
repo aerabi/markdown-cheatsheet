@@ -50,5 +50,36 @@ This is line 2.
 
 It's less known, because it's invisible. But, try it out.
 
+## Emphasis
+
+There are three ways to emphasize:
+- Bold
+- Italic
+- Bold and italic
+
+Making bold can be done by double underscores or double asterisks:
+
+```markdown
+This is __bold__, so is **this**.
+```
+
+But inside a word, only the asterisks work:
+
+```markdown
+**Thi**s **i**s a **GitH**ub-**flavor**ed **Markdo**wn **cheatshe**et **focusi**ng **o**n **les**s-**kno**wn **featur**es.
+```
+
+To make italic, use one underscore or one asterisk, and again, inside a middle only the asterisk syntax works:
+
+```markdown
+This is _italic_, so is *this*. And it's not *un*important.
+```
+
+And to make something bold and italic, one can mix the two syntaxes:
+
+```markdown
+All of these are: ***bandi***, _**bandi**_, **_bandi_**, __*bandi*__, *__bandi__*, ___bandi___.
+And inside the word: b***and***i which means bold***and***italic.
+```
 
 [^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
