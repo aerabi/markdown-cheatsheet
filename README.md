@@ -212,4 +212,49 @@ Output:
 - [ ] Fix the code formatting
 
 
+## Horizontal Line
+
+To create a horizontal line, use three or more asterisks (`***`), hyphens (`---`), or underscores (`___`):
+
+```markdown
+Some text!
+
+---
+
+Next chapter or something!
+```
+
+## URLs and Email Addresses
+
+To turn URLs and email addresses into links, just wrap them into angle brackets:
+
+```markdown
+Take a look at my Medium posts: <https://aerabi.medium.com>
+You can also email me at <mohammad-ali@aerabi.com>
+```
+
+## Links
+
+To create a link, enclode the linked text in brackets and then immediately the URL in parentheses:
+
+```markdown
+Take a look at my [Medium posts](https://aerabi.medium.com/).
+```
+
+You can also add a title to the link that shows as a tooltip:
+
+```markdown
+Take a look at my [Medium posts](https://aerabi.medium.com/ "Git Weekly is published there!").
+```
+
+Take a look at my [Medium posts](https://aerabi.medium.com/ "Git Weekly is published there!").
+
+## Images
+
+Image syntax is similar to that of links, only it has an exclamation mark in front and the text is the alt text:
+
+```markdown
+![My GitHub avatar](https://avatars.githubusercontent.com/u/44623032?v=4)
+```
+
 [^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
