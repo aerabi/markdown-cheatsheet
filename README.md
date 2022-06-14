@@ -5,6 +5,32 @@ Markdown is a lightweight markup language, mostly used for writing readmes. Each
 ## TL;DR
 **Thi**s **i**s a **GitH**ub-**flavor**ed **Markdo**wn **cheatshe**et **focusi**ng **o**n **les**s-**kno**wn **featur**es.[^1]
 
+## Table of Contents
+
+* [Headings](#headings)
+* [Alternate Headings](#alternate-headings)
+* [Paragraphs](#paragraphs)
+* [Line Breaks](#line-breaks)
+* [Emphasis](#emphasis)
+* [Inline Code](#inline-code)
+* [Code Block](#code-block)
+* [Code Block with Syntax Highlighting](#code-block-with-syntax-highlighting)
+* [Blockquotes](#blockquotes)
+* [Ordered Lists](#ordered-lists)
+* [Unordered Lists](#unordered-lists)
+* [Task Lists](#task-lists)
+* [Horizontal Line](#horizontal-line)
+* [URLs and Email Addresses](#urls-and-email-addresses)
+* [Links](#links)
+* [Images](#images)
+* [Subscript and Superscript](#subscript-and-superscript)
+* [Mathematics](#mathematics)
+* [Tables](#tables)
+* [Emojis](#emojis)
+* [HTML](#html)
+* [Comments](#comments)
+* [References](#references)
+
 ## Headings
 Similar to HTML, there are 6 headings in Markdown:
 
