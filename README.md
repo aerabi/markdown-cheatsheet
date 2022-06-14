@@ -239,7 +239,7 @@ You can also email me at <mohammad-ali@aerabi.com>
 
 ## Links
 
-To create a link, enclode the linked text in brackets and then immediately the URL in parentheses:
+To create a link, enclose the linked text in brackets and then immediately the URL in parentheses:
 
 ```markdown
 Take a look at my [Medium posts](https://aerabi.medium.com/).
@@ -260,5 +260,76 @@ Image syntax is similar to that of links, only it has an exclamation mark in fro
 ```markdown
 ![My GitHub avatar](https://avatars.githubusercontent.com/u/44623032?v=4)
 ```
+
+## Subscript and Superscript
+
+One might want to write about H<sub>2</sub>O or Batman<sup>TM</sup>.
+
+```markdown
+One might want to write about H<sub>2</sub>O or Batman<sup>TM</sup>.
+```
+
+## Mathematics
+
+Onث can write LaTeX-style mathematical formulae in GitHub-flavored Markdown now:
+
+```markdown
+I know why $e^{i\pi} + 1 = 0$. And I also know that:
+
+$$ \frac{G}{\mathrm{Ker}(\phi)} \cong \mathrm{Im}(\phi). $$
+```
+
+I know why $e^{i\pi} + 1 = 0$. And I also know that:
+
+$$ \frac{G}{\mathrm{Ker}(\phi)} \cong \mathrm{Im}(\phi). $$
+
+## Tables
+
+Tables are cool:
+
+```markdown
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
+## Emojis
+
+Emojis can be written by using colons, hurray! :tada:
+
+```markdown
+Emojis can be written by using colons, hurray! :tada:
+```
+
+[Emojipedia](https://emojipedia.org/) has the GitHub shortcodes for emojis, e.g. :beach_umbrella: [Beach with Umbrella](https://emojipedia.org/beach-with-umbrella/).
+
+## HTML
+
+One can use <b>HTML</b> tags in Markdown as well.
+
+```markdown
+One can use <b>HTML</b> tags in Markdown as well.
+```
+
+## Comments
+
+To hide contents in a Markdown document, one can use the HTML comment syntax:
+
+```markdown
+<!-- This is comment and won't be rendered! -->
+```
+
+<!-- This is comment and won't be rendered! -->
+
+## References
+
+- [Markdown Guide > Basic Syntax](https://www.markdownguide.org/basic-syntax)
+- [Markdown Guide > Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet)
+- [GitHub Docs > Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm)
+- [Adam Pritchard, "Markdown Cheatsheet"](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [The GitHub Blog > Math Support in Markdown](https://github.blog/2022-05-19-math-support-in-markdown/)
 
 [^1]: Here I made the words half bold. It showcases two things: 1. Making texts bold in the middle of the word. 2. Markdown footnotes. It is known that making the words half bold makes it easier and faster for your mind to read it. It's called bionic reading.
