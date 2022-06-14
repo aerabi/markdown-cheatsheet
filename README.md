@@ -160,6 +160,10 @@ Blockquotes are designated by a `>` in front of them:
 
 Use double `>` to create nested blockquotes.
 
+> Georg Cantor quoted:
+>
+>> Veniet tempus quo ista quae nunc latent in lucem dies extrahat et longioris aevi diligentia.
+
 ## Ordered Lists
 
 To create an ordered list:
